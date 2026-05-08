@@ -39,7 +39,6 @@ export default defineConfig({
       // 將 /images 設置為/resources/images路徑，來獲取圖片路徑
       '/css': '/resources/css',
       '/images': '/resources/images',
-      'ziggy': '/vendor/tightenco/ziggy',
     },
   },
   css: {

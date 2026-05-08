@@ -2,7 +2,7 @@ import '../css/app.css';
 import { createApp, h } from 'vue';
 import { createInertiaApp, Link, Head } from '@inertiajs/vue3';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
-import { ZiggyVue } from 'ziggy/dist/vue.m';
+import { ZiggyVue } from 'ziggy-js';
 import { createPinia } from 'pinia';
 import AppLayout from '@/Layouts/AppLayout.vue';
 
